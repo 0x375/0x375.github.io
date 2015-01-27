@@ -2,22 +2,35 @@
 layout: default
 ---
 
-<div class="home">
+<div id="headerwrap" id="home" name="home">
+  <header class="clearfix">
+    <h1><span class="icon"></span>0x375</h1>
+    <p>Seems safe enough&trade;</p>
+  </header>
+</div><!-- /headerwrap -->
 
-  <h1 class="page-heading">Posts</h1>
+<br />
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="container">
+  <div class="row">
+    <h2 class="centered">What is 0x375?</h2>
+    <hr>
+    <br>
+    <div class="col-lg-offset-2 col-lg-8">
+      <p>0x375 (Thessaloniki Tech Talk Sessions) is an independent, non commercial, non vendor biased and loosely organized meeting of hackers centered in the city of Thessaloniki, Greece. During 0x375, people meet to give presentations on technical topics ranging from simple administration procedures to advanced kernel exploitation techniques. Drinks, food and fun are an integral part of the meeting!</p>
+    </div><!-- col-lg -->
+  </div><!-- row -->
+</div><!-- container -->
+</div><!-- /headerwrap -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<div class="container">
+  <div class="row">
+    <h2 class="centered">How often does 0x375 take place?</h2>
+    <hr>
+    <br>
+    <div class="col-lg-offset-2 col-lg-8">
+      <p>We organize 0x375 events whenever we have enough submissions, usually two or three times a year. Anouncements for upcoming events usually make it to various greek mailing lists like <a target="_blank" href="https://lists.owasp.org/mailman/listinfo/owasp-greece">OWASP</a> and <a target="_blank" href="http://lists.hellug.gr/mailman/listinfo/linux-greek-users">LGU</a>. We also maintain a mailing list for those who don't read either of two - mail us if you would like to get included. 0x375 is free and open for everyone. Due to our non-existent budget, we can't afford to rent convention centers, venues and so on. It is for this purpose that we are currently organizing the events in the Electrical Engineering Department of the Aristotle University of Thessaloniki (further suggestions are also welcome). There are no fixed meeting dates, so if you want to meet us and give a talk, just email us an abstract.</p>
+    </div><!-- col-lg -->
+  </div><!-- row -->
+</div><!-- container -->
+</div><!-- /headerwrap -->
