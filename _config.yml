@@ -6,6 +6,9 @@ baseurl: ""
 url: "https://0x375.org"
 twitter_username: jekyllrb
 github_username:  jekyll
+collections:
+  events:
+    output: true
 
 # Build settings
 markdown: kramdown

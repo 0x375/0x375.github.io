@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="section-divider textdivider divider2">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <hr>
+    <p>{{ page.location }} @ {{ page.date | date: "%b %-d, %Y" }}</p>
+  </div><!-- container -->
+</section><!-- section -->
+
+<br />
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      {{ content }}
+    </div><!-- col-lg -->
+  </div><!-- row -->
+</div>
