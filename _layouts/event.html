@@ -39,15 +39,15 @@ layout: default
       </div>
 
       <div class="col-md-5 col-md-offset-1">
-        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
         <p>{{ presentation.description }}</p>
+        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" target="_blank" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
       </div>
     </div>
     {% else %}
     <div class="row">
       <div class="">
         <p>{{ presentation.description }}</p>
-        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
+        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" target="_blank" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
       </div>
     </div>
     {% endif %}
