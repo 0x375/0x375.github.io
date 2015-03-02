@@ -1,13 +1,22 @@
 ---
 layout: event
-title:  "0x375 0x08"
+title:  "0x08"
 location: "EE.AUTh"
 location_url: ""
-date: 2012-07-18 18:00:00
+date: 2012-07-18 18:00:00 +03:00
 categories: event auth
+presentations:
+  - title: Bump mapping and perlin noise clouds in Stellarium
+    author:
+      name: hikiko
+    date: 2012-07-18 18:00:00 +03:00
+    video_url: ""
+    material_url: ""
+  - title: 8bit demo coding horror
+    author:
+      name: optimus
+      twitter: "optimus6128"
+    date: 2012-07-18 19:00:00 +03:00
+    video_url: ""
+    material_url: ""
 ---
-
-* @18:00 by **hikiko**  
-  Bump mapping and perlin noise clouds in Stellarium
-* @19:00 by **optimus**  
-  8bit demo coding horror

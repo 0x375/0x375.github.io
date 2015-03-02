@@ -1,0 +1,21 @@
+---
+layout: event
+title:  "0x06"
+location: "EE.AUTh"
+location_url: ""
+date: 2011-11-04 18:30:00 +03:00
+categories: event auth
+presentations:
+  - title: Modern cipherspace ecosystems
+    author:
+      name: lixtetrax
+    date: 2011-11-04 18:30:00 +03:00
+    video_url: ""
+    material_url: ""
+  - title: Dr. kerneldev or how I learned to stop worrying and love the pagefault
+    author:
+      name: nuclear
+    date: 2011-11-04 19:30:00 +03:00
+    video_url: ""
+    material_url: ""
+---

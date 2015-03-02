@@ -1,0 +1,21 @@
+---
+layout: event
+title:  "0x04"
+location: "EE.AUTh"
+location_url: ""
+date: 2011-02-04 18:00:00 +03:00
+categories: event auth
+presentations:
+  - title: Hijacking sessions and inserting code at OSI layers 2, 3 & 4
+    author:
+      name: MilesAway
+    date: 2011-02-04 18:00:00 +03:00
+    video_url: ""
+    material_url: ""
+  - title: Bypassing no-exec restrictions
+    author:
+      name: huku
+    date: 2011-02-04 19:00:00 +03:00
+    video_url: ""
+    material_url: ""
+---

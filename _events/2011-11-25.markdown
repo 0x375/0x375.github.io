@@ -1,0 +1,21 @@
+---
+layout: event
+title:  "0x07"
+location: "EE.AUTh"
+location_url: ""
+date: 2011-11-25 18:00:00 +03:00
+categories: event auth
+presentations:
+  - title: Security considerations for a brave new (IPv6) world
+    author:
+      name: kargig
+    date: 2011-11-25 18:00:00 +03:00
+    video_url: ""
+    material_url: ""
+  - title: Playing hide-and-seek with a compromised kernel
+    author:
+      name: apoikos
+    date: 2011-11-25 19:30:00 +03:00
+    video_url: ""
+    material_url: ""
+---
