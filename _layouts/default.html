@@ -3,13 +3,26 @@
 
   {% include head.html %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <body class="boxed-layout">
 
     {% include header.html %}
 
+    <div class="main-container">
     {{ content }}
 
     {% include footer.html %}
+    </div>
+
+    <script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/flexslider.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/placeholders.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/twitterfetcher.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/spectragram.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/scripts.js" | prepend: site.baseurl }}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 
   </body>
 
