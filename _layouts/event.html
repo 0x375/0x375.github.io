@@ -1,20 +1,57 @@
 ---
 layout: default
 ---
-<section class="section-divider textdivider divider2">
-  <div class="container">
-    <h1>{{ page.title }}</h1>
-    <hr>
-    <p>{{ page.location }} @ {{ page.date | date: "%b %-d, %Y" }}</p>
-  </div><!-- container -->
-</section><!-- section -->
 
-<br />
+<section class="header header-11 overlay">
+<div class="background-image-holder">
+<img alt="Background Image" class="background-image" src="/assets/img/bg/divider6.jpg">
+</div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-lg-offset-2 col-lg-8">
-      {{ content }}
-    </div><!-- col-lg -->
-  </div><!-- row -->
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h2 class="text-white">0x375 #{{ page.title }}</h2>
+    <h5 class="text-white">{{ page.location }} @ {{ page.date | date: "%b %-d, %Y" }}</h5>
+  </div>
 </div>
+</div>
+</section>
+
+{% for presentation in page.presentations %}
+<section class="features features-10">
+  <div class="container">
+    <div class="row">
+      <h3><small>{{ presentation.date | date: "%H:%M" }}</small> {{ presentation.title }}</h3>
+    </div>
+    <div class="row">
+      <div class="">
+        <h6>by {{ presentation.author.name }}</h6>
+        <br />
+      </div>
+    </div>
+
+    {% if presentation.video_url != "" %}
+    <div class="row v-align-children">
+      <div class="col-md-6">
+        <div class="embed-video-container">
+          <iframe src="{{ presentation.video_url }}"></iframe>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-md-offset-1">
+        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
+        <p>{{ presentation.description }}</p>
+      </div>
+    </div>
+    {% else %}
+    <div class="row">
+      <div class="">
+        <p>{{ presentation.description }}</p>
+        <p class="text-center">{% if presentation.material_url != "" %}<a class="btn btn-filled" href="{{ presentation.material_url }}">download presentation</a>{% endif %}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% endfor %}

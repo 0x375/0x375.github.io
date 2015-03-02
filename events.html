@@ -4,7 +4,6 @@ title: Events
 permalink: /events/
 ---
 
-
 <section class="header header-11 overlay">
 <div class="background-image-holder">
 <img alt="Background Image" class="background-image" src="/assets/img/bg/divider6.jpg">
@@ -31,7 +30,7 @@ permalink: /events/
             <span class="price">{{ event.title }}</span>
           </div>
           <h5>{{ event.date | date: "%b %-d, %Y" }} @{{ event.location}}</h5>
-          <!-- <a class="btn btn-filled" href="{{ event.url | prepend: site.baseurl }}">Details</a> -->
+          <a class="btn btn-filled" href="{{ event.url | prepend: site.baseurl }}">event details</a>
         </div>
       </div>
 
