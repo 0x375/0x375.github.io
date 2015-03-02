@@ -3,23 +3,53 @@ layout: default
 title: Events
 permalink: /events/
 ---
-<section class="section-divider textdivider divider2">
-  <div class="container">
-    <h1>{{ page.title }}</h1>
-  </div><!-- container -->
-</section><!-- section -->
 
-<br />
+
+<section class="header header-11 overlay">
+<div class="background-image-holder">
+<img alt="Background Image" class="background-image" src="/assets/img/bg/divider6.jpg">
+</div>
 
 <div class="container">
-  {% for event in site.events %}
-    <div class="row">
-      <div class="col-lg-offset-2 col-lg-8">
-        <h3>
-          <a class="event-link" href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
-        </h3>
-        <p>{{ event.date | date: "%b %-d, %Y" }} @{{ event.location}}</p>
-      </div><!-- col-lg -->
-    </div><!-- row -->
-  {% endfor %}
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h2 class="text-white">0x375</h2>
+    <h5 class="text-white">{{ page.title }}</h5>
+  </div>
 </div>
+</div>
+</section>
+
+{% for event in site.events reversed %}
+<section class="pricing pricing-5 {% cycle 'bg-', 'bg-secondary' %}">
+  <div class="container">
+    <div class="row v-align-children">
+      <div class="col-md-4 text-center">
+        <div class="pricing-option">
+          <!-- <h6>0x375</h6> -->
+          <div class="price-container">
+            <span class="price">{{ event.title }}</span>
+          </div>
+          <h5>{{ event.date | date: "%b %-d, %Y" }} @{{ event.location}}</h5>
+          <!-- <a class="btn btn-filled" href="{{ event.url | prepend: site.baseurl }}">Details</a> -->
+        </div>
+      </div>
+
+      <div class="col-md-8">
+
+        {% for presentation in event.presentations %}
+        <div class="feature">
+          <i>{{ presentation.date | date: "%H:%M" }}</i>
+          <div class="inner">
+            <h6>{{ presentation.title }}</h6>
+            <p>{{ presentation.description }}</p>
+            <p><em>— {{ presentation.author.name }}</em></p>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
