@@ -3,9 +3,9 @@
 ## Development instructions
 
 In order to preview your changes before committing them you need to have
-(Ruby)[https://www.ruby-lang.org/en/documentation/installation/] installed.  
+[Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed.  
 
-With Ruby installed install you will need to install (Jekyll)[http://jekyllrb.com/]
+With Ruby installed install you will need to install [Jekyll](http://jekyllrb.com/)
 via `gem install jekyll` and then you are set.
 
 To preview the website locally you can execute `jekyll serve` from inside the
