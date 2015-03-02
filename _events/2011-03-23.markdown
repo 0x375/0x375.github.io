@@ -6,16 +6,17 @@ location_url: ""
 date: 2011-03-23 18:30:00 +03:00
 categories: event auth
 presentations:
-  - title: Understanding the simplicity of using satellite links and methods of using, abusing and denying service to them.
+  - title: Using, abusing and denying service to satellite links
+    description: Understanding the simplicity of using satellite links and methods of using, abusing and denying service to them.
     author:
       name: bakira
     date: 2011-03-23 18:30:00 +03:00
-    video_url: ""
+    video_url: "https://player.vimeo.com/video/21461935"
     material_url: ""
   - title: Coding kernels for fun -and profit-
     author:
       name: nuclear
     date: 2011-03-23 19:30:00 +03:00
-    video_url: ""
+    video_url: "https://player.vimeo.com/video/21481090"
     material_url: ""
 ---
