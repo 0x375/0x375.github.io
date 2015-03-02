@@ -11,11 +11,11 @@ presentations:
       name: MilesAway
     date: 2011-02-04 18:00:00 +03:00
     video_url: ""
-    material_url: ""
+    material_url: "/archive/0x375_0x03-2011-02-04/Hijacking_sessions-MilesAway.tar.gz"
   - title: Bypassing no-exec restrictions
     author:
       name: huku
     date: 2011-02-04 19:00:00 +03:00
     video_url: ""
-    material_url: ""
+    material_url: "/archive/0x375_0x03-2011-02-04/Bypassing_noexec-huku.tar.gz"
 ---

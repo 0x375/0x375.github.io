@@ -12,11 +12,11 @@ presentations:
       name: bakira
     date: 2011-03-23 18:30:00 +03:00
     video_url: "https://player.vimeo.com/video/21461935"
-    material_url: ""
+    material_url: "/archive/0x375_0x04-2011-03-23/Understanding_satellites-Bakira.pdf"
   - title: Coding kernels for fun -and profit-
     author:
       name: nuclear
     date: 2011-03-23 19:30:00 +03:00
     video_url: "https://player.vimeo.com/video/21481090"
-    material_url: ""
+    material_url: "/archive/0x375_0x04-2011-03-23/Writing_kernels_for_fun-Nuclear.pdf"
 ---

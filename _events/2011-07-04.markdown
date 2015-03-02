@@ -11,11 +11,11 @@ presentations:
       name: jObo
     date: 2011-07-04 18:00:00 +03:00
     video_url: ""
-    material_url: ""
+    material_url: "/archive/0x375_0x05-2011-07-04/Yubikeys-jObo.pdf"
   - title: GSM for fun
     author:
       name: Dinos
     date: 2011-07-04 19:00:00 +03:00
     video_url: ""
-    material_url: ""
+    material_url: "/archive/0x375_0x05-2011-07-04/GSM_fun-Dinos.pdf"
 ---
