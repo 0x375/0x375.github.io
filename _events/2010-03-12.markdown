@@ -1,0 +1,23 @@
+---
+layout: event
+title:  "0x02"
+location: "EE.AUTh"
+location_url: ""
+date: 2010-03-12 18:00:00 +03:00
+categories: event auth
+presentations:
+  - title: Tracking FreeBSD Customizations with a Local Mercurial Branch
+    author:
+      name: keramida
+      twitter: "keramida"
+    date: 2010-03-12 18:00:00 +03:00
+    video_url: ""
+    material_url: "/archive/0x375_0x02-2010-03-12/Tracking_FreeBSD_customizations_with_a_local_mercurial_branch-Keramida.pdf"
+  - title: Prez
+    author:
+      name: fotisl
+      twitter: "fotisl"
+    date: 2010-03-12 19:00:00 +03:00
+    video_url: ""
+    material_url: "/archive/0x375_0x02-2010-03-12/Prez-Fotisl.pdf"
+---
