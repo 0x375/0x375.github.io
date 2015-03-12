@@ -1,0 +1,22 @@
+---
+layout: event
+title:  "0x01"
+location: "EE.AUTh"
+location_url: ""
+date: 2009-12-10 18:00:00 +03:00
+categories: event auth
+presentations:
+  - title: Advanced SQL Injections
+    author:
+      name: SolidSNK
+    date: 2009-12-10 18:00:00 +03:00
+    video_url: ""
+    material_url: "/archive/0x375_0x01-2009-12-10/Advanced_SQL_injections-Solidsnk.pdf"
+  - title: FreeBSD Kernel Exploitation
+    author:
+      name: argp
+      twitter: "_argp"
+    date: 2009-12-10 19:00:00 +03:00
+    video_url: ""
+    material_url: "/archive/0x375_0x01-2009-12-10/FreeBSD_kernel_exploitation-Argp.pdf"
+---
