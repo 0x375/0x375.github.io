@@ -9,14 +9,15 @@ presentations:
   - title: Bump mapping and perlin noise clouds in Stellarium
     author:
       name: hikiko
+      twitter: "hikik0"
     date: 2012-07-18 18:00:00 +03:00
-    video_url: ""
-    material_url: ""
+    video_url: "/archive/0x375_0x08-2012-07-18/effects_stellarium-hikiko.mp4"
+    material_url: "/archive/0x375_0x08-2012-07-18/bump_mapping_and_perlin_noise_clouds_in_stellarium-hikiko.pdf"
   - title: 8bit demo coding horror
     author:
       name: optimus
       twitter: "optimus6128"
     date: 2012-07-18 19:00:00 +03:00
     video_url: ""
-    material_url: ""
+    material_url: "/archive/0x375_0x08-2012-07-18/8bit_demo_coding_horror-optimus.pdf"
 ---
