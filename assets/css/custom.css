@@ -1,4 +1,19 @@
-/*!---------- PLACE YOUR CUSTOM STYLES AND OVERRIDES HERE ----------*//*!---------- PLACE YOUR CUSTOM STYLES AND OVERRIDES HERE ----------*/
+/*!---------- PLACE YOUR CUSTOM STYLES AND OVERRIDES HERE ----------*/
+p {
+  text-align: justify;
+}
+
+.date {
+  color: #AAA;
+}
+
+.short {
+  color: #AAA;
+}
+
+.separator {
+  color: #81A9AB;
+}
 
 #logo {
   padding-top: 25px;

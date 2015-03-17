@@ -9,6 +9,8 @@ github_username:  jekyll
 collections:
   events:
     output: true
+  updates:
+    output: true
 
 # Build settings
 markdown: kramdown

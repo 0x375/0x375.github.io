@@ -1,0 +1,41 @@
+---
+layout: default
+title: Updates
+permalink: /updates/
+---
+
+<section class="header header-11 overlay">
+<div class="background-image-holder">
+<img alt="Background Image" class="background-image" src="/assets/img/bg/divider6.jpg">
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h2 class="text-white">0x375</h2>
+    <h5 class="text-white">{{ page.title }}</h5>
+  </div>
+</div>
+</div>
+</section>
+
+{% for update in site.updates %}
+<section class="pricing pricing-5 {% cycle 'bg-', 'bg-secondary' %}">
+  <div class="container">
+    <div class="row v-align-children">
+      <div class="col-md-12">
+
+        <h5><a href="{{ update.url | prepend: site.baseurl }}">
+          <span class="date">{{ update.date | date: "%b %-d, %Y" }}</span>
+          <span class="separator"> / </span>
+          <span>{{ update.title }}</span>
+          <span class="separator"> / </span>
+          <small class="short">{{ update.short }}</span>
+          </a>
+        </h5>
+
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
