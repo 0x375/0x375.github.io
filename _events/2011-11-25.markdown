@@ -9,12 +9,14 @@ presentations:
   - title: Security considerations for a brave new (IPv6) world
     author:
       name: kargig
+      twitter: "kargig"
     date: 2011-11-25 18:00:00 +03:00
     video_url: ""
     material_url: "/archive/0x375_0x07-2011-11-25/security_considerations_for_ipv6-kargig.pdf"
   - title: Playing hide-and-seek with a compromised kernel
     author:
       name: apoikos
+      twitter: "apoikos"
     date: 2011-11-25 19:30:00 +03:00
     video_url: ""
     material_url: "/archive/0x375_0x07-2011-11-25/playing_hide_and_seek_with_a_compromised_system-apoikos.pdf"

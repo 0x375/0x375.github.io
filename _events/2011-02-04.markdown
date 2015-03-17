@@ -9,6 +9,7 @@ presentations:
   - title: Hijacking sessions and inserting code at OSI layers 2, 3 & 4
     author:
       name: MilesAway
+      twitter: "_gatoni"
     date: 2011-02-04 18:00:00 +03:00
     video_url: ""
     material_url: "/archive/0x375_0x03-2011-02-04/Hijacking_sessions-MilesAway.tar.gz"
