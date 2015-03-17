@@ -1,9 +1,9 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
 	"use strict";
 
 	// Variables
-	
+
 	var triggerVid;
 	var launchkit_hoverGallery;
 
@@ -15,9 +15,9 @@ $(document).ready(function() {
             return false;
         }
     });
-    
+
     // Smooth scroll to inner links
-	
+
 	$('.inner-link').smoothScroll({
 		offset: -59,
 		speed: 800
@@ -60,9 +60,9 @@ $(document).ready(function() {
     if (!$('nav').hasClass('overlay')) {
         $('.nav-container').css('min-height', $('nav').outerHeight());
     }
-    
+
     // Set bg of nav container if dark skin
-    
+
     if($('nav').hasClass('dark')){
     	$('.nav-container').addClass('dark');
     	$('.main-container').find('section:nth-of-type(1)').css('outline', '40px solid #222');
@@ -101,7 +101,7 @@ $(document).ready(function() {
     if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         $(window).scroll(function() {
             requestAnimationFrame(fixedHeader);
-            
+
         });
     }
 
@@ -122,9 +122,9 @@ $(document).ready(function() {
         $(this).children('img').hide();
         $(this).css('background-position', '50% 50%');
     });
-    
+
     // Fade in background images
-	
+
 	setTimeout(function(){
 		$('.background-image-holder').each(function() {
 			$(this).addClass('fadeIn');
@@ -186,21 +186,21 @@ $(document).ready(function() {
     	var that = $(this);
     	var timerId = setInterval(function(){scrollHoverGallery(that);}, $(this).closest('.hover-gallery').attr('speed'));
 		$(this).closest('.hover-gallery').attr('timerId', timerId );
-		
+
 		$(this).find('li').bind('hover, mouseover, mouseenter, click', function(e){
 			e.stopPropagation();
 			clearInterval(timerId);
 		});
-	
+
 	});
-	
+
 
     $('.hover-gallery li').mouseenter(function() {
         clearInterval($(this).closest('.hover-gallery[timerId]').attr('timerId'));
         $(this).parent().find('li.active').removeClass('active');
         $(this).addClass('active');
     });
-    
+
     // Pricing table remove emphasis on hover
 
     $('.pricing-option').mouseenter(function() {
@@ -251,13 +251,13 @@ $(document).ready(function() {
             query: $(this).attr('data-user-name')
         });
     });
-    
+
     // Sort tabs into 2 ul's
-    
+
     $('.tabbed-content').each(function(){
     	$(this).append('<ul class="content"></ul>');
     });
-    
+
     $('.tabs li').each(function(){
     	var originalTab = $(this), activeClass = "";
     	if(originalTab.is('.tabs li:first-child')){
@@ -266,7 +266,7 @@ $(document).ready(function() {
     	var tabContent = originalTab.find('.tab-content').detach().wrap('<li'+activeClass+'></li>').parent();
     	originalTab.closest('.tabbed-content').find('.content').append(tabContent);
     });
-    
+
     $('.tabs li').click(function(){
     	$(this).closest('.tabs').find('li').removeClass('active');
     	$(this).addClass('active');
@@ -275,11 +275,11 @@ $(document).ready(function() {
     	$(this).closest('.tabbed-content').find('.content li:nth-child('+liIndex+')').addClass('active');
     });
 
-    
+
     // Contact form code
 
-    $('form.form-email').submit(function(e) {
-       
+    $('~x-form.form-email').submit(function(e) {
+
         // return false so form submits through jQuery rather than reloading page.
         if (e.preventDefault) e.preventDefault();
         else e.returnValue = false;
@@ -291,9 +291,9 @@ $(document).ready(function() {
 
 		// Mailchimp/Campaign Monitor Mail List Form Scripts
 		iFrame = $(thisForm).find('iframe.mail-list-form');
-		
+
 		if( (iFrame.length) && (typeof iFrame.attr('srcdoc') !== "undefined") && (iFrame.attr('srcdoc') !== "") ){
-				
+
 				console.log('Mail list form signup detected.');
 				userEmail 		= $(thisForm).find('.signup-email-field').val();
 				userFullName 	= $(thisForm).find('.signup-name-field').val();
@@ -307,7 +307,7 @@ $(document).ready(function() {
 					console.log(userLastName);
 					console.log(userFirstName);
 					console.log(userFullName);
-					
+
 					iFrame.contents().find('#mce-EMAIL, #fieldEmail').val(userEmail);
 					iFrame.contents().find('#mce-LNAME, #fieldLastName').val(userLastName);
 					iFrame.contents().find('#mce-FNAME, #fieldFirstName').val(userFirstName);
@@ -424,20 +424,20 @@ $(document).ready(function() {
 
         return error;
     }
-    
+
     // Remove screen when user clicks on the map, then add it again when they scroll
-    
+
     $('.screen').click(function(){
     	$(this).removeClass('screen');
     });
-    
+
     $(window).scroll(function(){
     	$('.contact-2 .map-holder').addClass('screen');
     });
 
-}); 
+});
 
-$(window).load(function() { 
+$(window).load(function() {
 
 	"use strict";
 
@@ -478,7 +478,7 @@ $(window).load(function() {
         }
     }, 500);
 
-}); 
+});
 
 function scrollHoverGallery(gallery){
 	var nextActiveSlide = $(gallery).find('li.active').next();
@@ -519,7 +519,7 @@ function parallaxBackground(){
 			$(element).find('.parallax').css({
                 transform: 'translateY(' + value + 'px)'
             });
-            
+
 		}
-	});	
+	});
 }
