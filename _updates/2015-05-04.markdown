@@ -1,0 +1,26 @@
+---
+layout: update
+title:  "Call for papers for 0x09"
+short: "Guess who's back."
+date: 2015-05-04 14:29:00 +03:00
+categories: cfp
+---
+
+After quite some time of inactivity 0x375 is back for 0x09. The event's place
+and exact time will be announced at a later date but should be expected within
+May 2015.
+
+We welcome quality submissions for presentations on the theme of 0x375;
+The topic isn't really set in stone. Be it security, coding, hardware, devops
+or knitting related. A presentation of a trendy vulnerability; a Bitcoin miner
+written in brainfuck; guiding military drones using your mother's hairdryer or
+using AWS to create a network of spam bots that spam each other.
+
+**As long as revolves around tech and is interesting just go ahead and submit
+it.**
+
+It can be as hardcore as you'd like; We can handle it. You can check out the
+previous <a href="/events" title="Events">events</a> to get an idea what we are
+interested in.
+
+Just pick your poison and send us a <a href="mailto:info@0x375.net">mail</a>.
