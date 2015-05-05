@@ -25,7 +25,7 @@ layout: default
     </div>
     <div class="row">
       <div class="">
-        <h6>by {{ presentation.author.name }}</h6>
+        <h6>by {% if presentation.author.twitter != "" %}<a href="https://twitter.com/{{ presentation.author.twitter }}" target="_blank">{{ presentation.author.name }}</a>{% else %}{{ presentation.author.name }}{% endif %}</h6>
         <br />
       </div>
     </div>

@@ -42,7 +42,7 @@ permalink: /events/
           <div class="inner">
             <h6>{{ presentation.title }}</h6>
             <p>{{ presentation.description }}</p>
-            <p><em>— {{ presentation.author.name }}</em></p>
+            <p><em>— {% if presentation.author.twitter != "" %}<a href="https://twitter.com/{{ presentation.author.twitter }}" target="_blank">{{ presentation.author.name }}</a>{% else %}{{ presentation.author.name }}{% endif %}</em></p>
           </div>
         </div>
         {% endfor %}
